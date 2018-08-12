@@ -1,0 +1,15 @@
+
+/******************************************************
+Ejecutar Servidor OSX
+Ing. José Carlos Anaya Chávez
+*******************************************************/
+
+Para levantar un servidor web en OSX
+
+1) Abrir la Terminal
+2) Navegar hacia la carpeta donde estén los archivos en PHP que se desean ejecutar
+3) Ejecutar la siguiente instrucción
+	PHP -S localhost:9000 
+
+4) Una vez se levante el servidor, en el navegador ejecutar el archivos deseado
+	localhost:9000/archivo.php
