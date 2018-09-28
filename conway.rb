@@ -12,12 +12,6 @@ tableroJuego = [["0","1","0","0"],["0","1", "0","0"],["1","1", "1","1"],["0","0"
             end
         end
         return universo     
-    end 
-
-    def imprimir2(matriz)
-        matriz.each_with_index do |e, row, col|
-            puts "#{row},#{col}=>#{e}" 
-        end
     end
 
     def imprimir(matriz)
